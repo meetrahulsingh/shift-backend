@@ -1,0 +1,1 @@
+This is a placeholder for config.js in backend.
