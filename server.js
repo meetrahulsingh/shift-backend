@@ -11,8 +11,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Replace with your real Supabase project credentials
-const supabaseUrl = 'https://your-project.supabase.co';
-const supabaseKey = 'your-anon-key';
+const supabaseUrl = 'https://supabase.com/dashboard/project/rocrsoqkimwqygqjlwmd
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJvY3Jzb3FraW13cXlncWpsd21kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ3MDYwNDIsImV4cCI6MjA2MDI4MjA0Mn0.ctr8qsMsTap9bX-yrvzMYx1ClBYhq-8G74hHidXoP-A';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Root test route
